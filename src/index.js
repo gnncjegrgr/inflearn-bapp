@@ -182,7 +182,7 @@ const App = {
   mintYTT: async function (videoId, author, dateCreated, hash) {
     const sender = this.getWallet();
     const feePayer = cav.klay.accounts.wallet.add(
-      "0x8cafa33df8c1740720bc4815ce7c7cd61d18aaf396bb2a3da5e197f0c7b85aff"
+      "0x8cafa33df8..."
     );
 
     // using the promise
@@ -386,7 +386,7 @@ const App = {
       var spinner = this.showSpinner();
       const sender = this.getWallet();
       const feePayer = cav.klay.accounts.wallet.add(
-        "0x8cafa33df8c1740720bc4815ce7c7cd61d18aaf396bb2a3da5e197f0c7b85aff"
+        "0x8cafa3..."
       );
 
       // using the promise
